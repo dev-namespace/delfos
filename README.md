@@ -2,13 +2,23 @@
 
 An emacs framework for AI interaction.
 
+![Delfos capture](./media/delfos-demo.png)
+
+### Features 
+
+- Extensible chat interface with multiple threads
+- The system understands it's within emacs and responds accordingly
+- Chat displays in org-mode and code blocks can be evaluated
+- Copilot functions from anywhere in Emacs 
+  - Modify selected region using a LLM
+  - Ask about selected region to a LLM
+
 ## Configuration
 
 ### Example Doom Emacs configuration
 
 ```elisp
 (add-to-list 'load-path "[delfos folder]")
-(require 'delfos)
 
 (map! :leader
       (:prefix ("a" . "delfos")
