@@ -9,7 +9,8 @@ An emacs framework for AI interaction.
 - Extensible chat interface with multiple threads
 - The system understands it's within emacs and responds accordingly
 - Chat displays in org-mode and code blocks can be evaluated
-- Copilot functions from anywhere in Emacs 
+- Ask anything outside the chat and get a response in a pop-up buffer
+- Copilot features
   - Modify selected region using a LLM
   - Ask about selected region to a LLM
 
